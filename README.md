@@ -3,7 +3,7 @@
 
 > This is a complete version of my portfolio page project i built and completed on the second week of the first module while learning web-development at microverse.
 
-![screenshot](./asset/image.png)
+![screenshot](./asset/image1.png)
 
 My goal here is to Build a personal portfolio site from scratch, with focus on a mobile first design. take a peak at what i'v built [Live Demo](https://cynthia-nwannah.github.io/my-Project-portfolio/). 😊
 
