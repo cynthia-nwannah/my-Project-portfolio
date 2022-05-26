@@ -1,4 +1,3 @@
-# my-Project-portfolio
 # Module-1 Portfolio page
 
 > This is a complete version of my portfolio page project i built and completed on the second week of the first module while learning web-development at microverse.
