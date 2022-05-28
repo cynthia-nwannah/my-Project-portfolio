@@ -84,7 +84,7 @@ section p {
   font-family: 'Poppins', sans-serif;
 }
 
-input[type=button] {
+#bom {
   margin-bottom: 2em;
   width: 100%;
   padding: 1em 4em;
@@ -147,85 +147,109 @@ input[type=button] {
   height: 100%;
 }
 
+.section-plan {
+  width: 100%;
+  background-color: #1a2236;
+  display: flex;
+  justify-content: center;
+}
+
+.plan {
+  width: 90%;
+}
+
+.plan h4 {
+  color: white;
+  font-size: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+#ul {
+  list-style-type: none;
+}
+
+#ul li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+.see {
+  position: relative;
+}
+
+.see p {
+  width: 60%;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em 0.9em 0.5em 0.4em;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+.see img {
+  position: absolute;
+  left: 156px;
+  bottom: 15px;
+}
+
+#ultw {
+  list-style-type: none;
+}
+
+#ultw li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+#ulth {
+  list-style-type: none;
+}
+
+#ulth li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+#ulfo {
+  list-style-type: none;
+}
+
+#ulfo li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+#ulfi {
+  list-style-type: none;
+}
+
+#ulfi li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
 .section-threeb {
   width: 100%;
   background-color: #1a2236;
-}
-
-.main-se {
-  width: 90%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: minmax(20px, auto);
-  grid-gap: 5px;
-}
-
-.main-se .one {
-  padding: 0.4em 1em 0.4em 0;
-  color: white;
-  grid-column: 1/span6;
-  font-size: 1.5em;
-  font-family: 'Poppins', sans-serif;
-}
-
-.main-se .two {
-  grid-column: 1/ span 2;
-}
-
-.main-se .three {
-  grid-column: 3/ span 2;
-}
-
-.main-se .four {
-  grid-column: 5/ span 2;
-}
-
-.main-se .five {
-  grid-column: 1/ span 4;
-  position: relative;
-  border: 1px solid white;
-  color: white;
-  padding: 0.6em;
-  margin-top: 8px;
-  margin-bottom: 1.2em;
-  font-family: 'Poppins', sans-serif;
-}
-
-.main-se .five img {
-  position: absolute;
-  right: 5em;
-  top: 0.9em;
-}
-
-.three button {
-  background: #98dede;
-  padding: 0.2em 0.5em;
-}
-
-button:not(.three button) {
-  padding: 0.2em 1em;
-  background: #98dede;
-}
-
-#section-threeb {
-  width: 100%;
-  display: flex;
-}
-
-#section-threec {
-  width: 100%;
-  display: flex;
-}
-
-#section-threed {
-  width: 100%;
-  display: flex;
-}
-
-#section-threee {
-  width: 100%;
-  display: flex;
 }
 
 .About {
@@ -255,26 +279,27 @@ button:not(.three button) {
   margin-bottom: 2em;
 }
 
-.About .My button {
+.About .My .cv {
   width: 100%;
   padding: 0.8em 2em;
   background-color: #1a2236;
   color: white;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 15px;
   text-align: center;
+  position: relative;
 }
 
 .About .My button img {
   position: absolute;
   right: 71px;
-  bottom: 27px;
+  bottom: 18px;
 }
 
 .About .My button .imgarrow {
   position: absolute;
-  bottom: 32px;
+  bottom: 24px;
   right: 76px;
 }
 
@@ -313,9 +338,6 @@ button:not(.three button) {
   color: white;
   list-style-position: inside;
   font-weight: 600;
-}
-
-.lang ul li {
   font-size: 1.4em;
 }
 
@@ -391,6 +413,16 @@ button:not(.three button) {
   line-height: 1.3;
   font-size: 0.9;
   color: #1a2236;
+}
+
+#bomm {
+  margin-bottom: 2em;
+  width: 100%;
+  padding: 1em 4em;
+  font-size: 1em;
+  background-color: #1a2236;
+  color: white;
+  text-align: center;
 }
 
 form {
