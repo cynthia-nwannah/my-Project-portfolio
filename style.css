@@ -119,22 +119,28 @@ section p {
   object-fit: contain;
 }
 
-.pro {
-  padding: 1em;
-}
-
-.pro h1 {
+main h1 {
   font-size: 3em;
+  padding: 0.5em;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+  background-color: white;
 }
 
 #section-three {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
-#section-three h1 {
+.soft .My h2 {
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+#section-three h2 {
   display: none;
 }
 
@@ -167,6 +173,81 @@ section p {
   font-weight: 300;
 }
 
+.btn {
+  border: 1px solid white;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  padding: 1em  0.5em;
+  font-size: 1em;
+  background-color: #1a2236;
+  color: white;
+  text-align: left;
+  line-height: 1.2;
+  width: 65%;
+  position: relative;
+}
+
+.btn .arrowa {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arrowr {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arrowo {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arroww {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arrow {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #1a2236;
+}
+
+.btn :active {
+  background-color: #1a2236;
+  color: white;
+}
+
+.see img {
+  position: absolute;
+  left: 156px;
+  bottom: 15px;
+}
+
+.btn:hover img {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+
+#bom:hover {
+  color: #1a2236;
+  background-color: white;
+}
+
+#bom:active {
+  background-color: #1a2236;
+  color: white;
+}
+
 #ul {
   list-style-type: none;
 }
@@ -191,12 +272,6 @@ section p {
   font-family: 'Poppins', sans-serif;
   border: 1px solid #fff;
   margin-bottom: 15px;
-}
-
-.see img {
-  position: absolute;
-  left: 156px;
-  bottom: 15px;
 }
 
 #ultw {
@@ -252,26 +327,19 @@ section p {
   background-color: #1a2236;
 }
 
-.About {
+.soft {
   width: 100%;
   padding: 2em 0.5em 0.5em;
   display: flex;
   justify-content: center;
 }
 
-.About .My {
+.soft .My {
   width: 90%;
   position: relative;
 }
 
-.About .My h2 {
-  color: #1a2236;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 3em;
-}
-
-.About .My p {
+.soft .My p {
   font-size: 0.9em;
   font-weight: 400;
   color: #1a2236;
@@ -279,7 +347,7 @@ section p {
   margin-bottom: 2em;
 }
 
-.About .My .cv {
+.soft .My .cv {
   width: 100%;
   padding: 0.8em 2em;
   background-color: #1a2236;
@@ -291,13 +359,13 @@ section p {
   position: relative;
 }
 
-.About .My button img {
+.soft .My button img {
   position: absolute;
   right: 71px;
   bottom: 18px;
 }
 
-.About .My button .imgarrow {
+.soft .My button .imgarrow {
   position: absolute;
   bottom: 24px;
   right: 76px;
@@ -423,6 +491,16 @@ section p {
   background-color: #1a2236;
   color: white;
   text-align: center;
+}
+
+#bomm:hover {
+  color: #1a2236;
+  background-color: white;
+}
+
+#bomm:active {
+  background-color: #1a2236;
+  color: white;
 }
 
 form {
