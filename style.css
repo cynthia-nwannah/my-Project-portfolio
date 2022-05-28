@@ -347,7 +347,7 @@ main h1 {
   margin-bottom: 2em;
 }
 
-.soft .My .cv {
+.soft .My #cv {
   width: 100%;
   padding: 0.8em 2em;
   background-color: #1a2236;
@@ -359,10 +359,34 @@ main h1 {
   position: relative;
 }
 
+.soft .My #cv:hover {
+  color: #1a2236;
+  background-color: white;
+}
+
+.soft .My #cv:active {
+  background-color: #1a2236;
+  color: white;
+}
+
 .soft .My button img {
   position: absolute;
   right: 71px;
   bottom: 18px;
+}
+
+#resume img {
+  position: absolute;
+  left: 130px;
+}
+
+#footerimage img {
+  padding-right: 2em;
+}
+
+#cv:hover img {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
 }
 
 .soft .My button .imgarrow {
@@ -553,17 +577,8 @@ footer {
   color: white;
 }
 
-#resume img {
-  position: absolute;
-  left: 130px;
-}
-
 #footerimage {
   width: 100%;
   padding: 0.2em 0.8em;
   margin-bottom: 20px;
-}
-
-#footerimage img {
-  padding-right: 2em;
 }
