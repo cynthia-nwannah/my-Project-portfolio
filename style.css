@@ -9,8 +9,13 @@
 
 body {
   max-width: 400px;
-  height: 100vh;
-  background: #e5e5e5;
+  min-height: 100vh;
+  background-color: #f9f9fa;
+}
+
+header {
+  width: 100%;
+  background-color: #e5e5e5;
 }
 
 .headone {
@@ -31,14 +36,12 @@ body {
 }
 
 .headright {
-  /* height: 140%; */
   width: 50%;
   display: flex;
   justify-content: flex-end;
 }
 
 .right {
-  /* height:100%; */
   width: 30%;
   align-items: center;
   display: flex;
@@ -52,6 +55,7 @@ main {
   display: flex;
   flex-direction: column;
   padding-top: 23px;
+  background-color: #f9f9fa;
 }
 
 section {
@@ -61,11 +65,10 @@ section {
   margin: 0 auto;
 }
 
-section h1 {
-  /* background-color: #e50808; */
+section h2 {
   font-family: 'Playfair Display', serif;
   padding-bottom: 0.4em;
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-weight: 300;
 }
 
@@ -81,7 +84,8 @@ section p {
   font-family: 'Poppins', sans-serif;
 }
 
-input[type=button] {
+#bom {
+  margin-bottom: 2em;
   width: 100%;
   padding: 1em 4em;
   font-size: 1em;
@@ -103,9 +107,478 @@ input[type=button] {
 }
 
 .sectiontwo {
-  background-color: yellow;
+  margin-bottom: 1em;
   width: 100vw;
-  height: 100px;
-  background-image: url('./asset/shape.svg');
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectiontwo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+main h1 {
+  font-size: 3em;
+  padding: 0.5em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  background-color: white;
+}
+
+#section-three {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.soft .My h2 {
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+#section-three h2 {
+  display: none;
+}
+
+.lap {
+  width: 100%;
+}
+
+.lap img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-plan {
+  width: 100%;
+  background-color: #1a2236;
+  display: flex;
+  justify-content: center;
+}
+
+.plan {
+  width: 90%;
+}
+
+.plan h4 {
+  color: white;
+  font-size: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.btn {
+  border: 1px solid white;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  padding: 1em  0.5em;
+  font-size: 1em;
+  background-color: #1a2236;
+  color: white;
+  text-align: left;
+  line-height: 1.2;
+  width: 65%;
+  position: relative;
+}
+
+.btn .arrowa {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arrowr {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arrowo {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arroww {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn .arrow {
+  position: absolute;
+  left: 142px;
+  bottom: 16px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #1a2236;
+}
+
+.btn :active {
+  background-color: #1a2236;
+  color: white;
+}
+
+.see img {
+  position: absolute;
+  left: 156px;
+  bottom: 15px;
+}
+
+.btn:hover img {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+
+#bom:hover {
+  color: #1a2236;
+  background-color: white;
+}
+
+#bom:active {
+  background-color: #1a2236;
+  color: white;
+}
+
+#ul {
+  list-style-type: none;
+}
+
+#ul li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+.see {
+  position: relative;
+}
+
+.see p {
+  width: 60%;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em 0.9em 0.5em 0.4em;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+#ultw {
+  list-style-type: none;
+}
+
+#ultw li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+#ulth {
+  list-style-type: none;
+}
+
+#ulth li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+#ulfo {
+  list-style-type: none;
+}
+
+#ulfo li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+#ulfi {
+  list-style-type: none;
+}
+
+#ulfi li {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #98dede;
+  margin-right: 4px;
+  margin-bottom: 15px;
+}
+
+.section-threeb {
+  width: 100%;
+  background-color: #1a2236;
+}
+
+.soft {
+  width: 100%;
+  padding: 2em 0.5em 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.soft .My {
+  width: 90%;
+  position: relative;
+}
+
+.soft .My p {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2em;
+}
+
+.soft .My #cv {
+  width: 100%;
+  padding: 0.8em 2em;
+  background-color: #1a2236;
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.soft .My #cv:hover {
+  color: #1a2236;
+  background-color: white;
+}
+
+.soft .My #cv:active {
+  background-color: #1a2236;
+  color: white;
+}
+
+.soft .My button img {
+  position: absolute;
+  right: 71px;
+  bottom: 18px;
+}
+
+#resume img {
+  position: absolute;
+  left: 130px;
+}
+
+#footerimage img {
+  padding-right: 2em;
+}
+
+#cv:hover img {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+
+.soft .My button .imgarrow {
+  position: absolute;
+  bottom: 24px;
+  right: 76px;
+}
+
+.Languages {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2em;
+  background-color: #0c427b;
+  margin-bottom: 10px;
+}
+
+.langmain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lang {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lang h4 {
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 1em 0;
+  font-size: 1.4em;
+}
+
+.lang ul {
+  color: white;
+  list-style-position: inside;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+.tagname {
+  display: flex;
+  justify-content: right;
+}
+
+.Framework {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2em;
+  background-color: #e2505c;
+  margin-bottom: 10px;
+}
+
+.cube {
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+
+.cube .rec {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+}
+
+.skills {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2em;
+  background-color: #febf52;
+  margin-bottom: 40px;
+}
+
+.shaper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f9f9fa;
+}
+
+.last {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#start {
+  width: 90%;
+  background-color: #f9f9fa;
+}
+
+#start h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 3.2em;
+  padding-bottom: 0.4em;
+  padding-left: 0;
+  color: #1a2236;
+}
+
+#start p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 0.9;
+  color: #1a2236;
+}
+
+#bomm {
+  margin-bottom: 2em;
+  width: 100%;
+  padding: 1em 4em;
+  font-size: 1em;
+  background-color: #1a2236;
+  color: white;
+  text-align: center;
+}
+
+#bomm:hover {
+  color: #1a2236;
+  background-color: white;
+}
+
+#bomm:active {
+  background-color: #1a2236;
+  color: white;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 1em 1em 3em;
+  border-radius: 0.3em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+
+input[type="text"] {
+  border: 1px solid #dfdfe0;
+}
+
+input[type="email"] {
+  border: 1px solid #1a2236;
+}
+
+input::placeholder {
+  position: absolute;
+  top: 0;
+}
+
+textarea {
+  border: 1px solid #dfdfe0;
+}
+
+textarea::placeholder {
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #1a2236;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#resume {
+  position: relative;
+  padding: 2em 0.8em;
+  width: 90%;
+  color: white;
+}
+
+#footerimage {
+  width: 100%;
+  padding: 0.2em 0.8em;
+  margin-bottom: 20px;
 }
