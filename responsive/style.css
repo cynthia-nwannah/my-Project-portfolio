@@ -8,10 +8,11 @@
 }
 
 body {
-  max-width: 400px;
+  /* max-width: 400px; */
   min-height: 100vh;
   background-color: #f9f9fa;
 }
+
 
 header {
   width: 100%;
@@ -29,6 +30,19 @@ section#top {
 
 #top .top-in {
   width: 90%;
+}
+
+#top #image {
+  width: 100%;
+  min-height: 150px;
+background-color: red;
+background-image: url('../asset/shape.svg');
+}
+#top .imagetwo{
+  width: 100%;
+  min-height: 150px;
+background-color: red;
+background-image: url('../asset/Thur.png');
 }
 
 .headone {
@@ -113,24 +127,17 @@ section p {
     font-size: 0.8em;
     text-align: center;
   }
-
-  .sectiontwo {
-    margin-top: 1.4em;
-  }
 }
 
-.sectiontwo {
-  margin-bottom: 1em;
-  width: 100vw;
+/* img#pica {
+  display: none;
+} */
+/* 
+.sectiontwo img.pics {
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectiontwo img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
-}
+} */
 
 main h1 {
   font-size: 3em;
