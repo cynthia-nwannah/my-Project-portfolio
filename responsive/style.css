@@ -176,10 +176,8 @@ main h1 {
 .section-plan {
   width: 100%;
   background-color: #1a2236;
-  /* display: flex; */
-  /* justify-content: center; */
-  display: float;
-  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
 }
 
 .plan {
@@ -272,18 +270,14 @@ main h1 {
 
 #ul {
   list-style-type: none;
-  width: 33%;
 }
 
 #ul li {
-  float: left;
-  /* display: inline-block; */
-  /* padding: 0.4em 1em; */
-  /* padding-block: 10px; */
+  display: inline-block;
+  padding: 0.4em 1em;
   background: #98dede;
-  /* margin-right: 4px; */
+  margin-right: 4px;
   margin-bottom: 15px;
-
 }
 
 .see {
@@ -341,10 +335,8 @@ main h1 {
 }
 
 #ulfi li {
-  display: inline;
-  /* padding: 0.4em 1em; */
-  padding-left: 10px;
-  padding-bottom: 15px;
+  display: inline-block;
+  padding: 0.4em 1em;
   background: #98dede;
   margin-right: 4px;
   margin-bottom: 15px;
