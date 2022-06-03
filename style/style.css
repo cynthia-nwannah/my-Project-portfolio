@@ -79,6 +79,10 @@ section.top-in-one {
   background-color: white;
 }
 
+.top-out #image {
+  width: 100%;
+}
+
 main {
   width: 100%;
   height: 100%;
@@ -620,19 +624,15 @@ footer {
   margin-top: 20px;
   background-color: #1a2236;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 #resume {
-  position: relative;
   padding: 2em 0.8em;
-  width: 90%;
+  width: 50%;
   color: white;
 }
 
 #footerimage {
-  width: 100%;
-  padding: 0.2em 0.8em;
-  margin-bottom: 20px;
+  width: 50%;
+  padding: 2em 0.8em;
 }
