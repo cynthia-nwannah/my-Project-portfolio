@@ -46,7 +46,6 @@ section.top-in-one {
   width: 100%;
   display: flex;
   position: relative;
-  /* flex-direction: column; */
 }
 
 .top-out img {
