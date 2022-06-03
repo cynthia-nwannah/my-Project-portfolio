@@ -6,6 +6,10 @@
     display: none;
   }
 
+  .headright {
+    width: 80%;
+  }
+
   .headone .headright .right {
     display: none;
   }
@@ -19,7 +23,7 @@
   }
 
   .headone .headright nav {
-    width: 80%;
+    width: 90%;
     padding: 10px;
     margin: 0 auto;
     display: flex;
@@ -220,6 +224,10 @@
   }
 
   .last-bottom {
+    display: none;
+  }
+
+  .dow {
     display: none;
   }
 
