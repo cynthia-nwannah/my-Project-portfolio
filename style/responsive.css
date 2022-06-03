@@ -49,6 +49,7 @@
     text-decoration: none;
    
   }
+
   section#top{
    
     min-height: 200px;
@@ -61,19 +62,22 @@
   }
 
 #top .imagetwo{
-  width: 50%;
-  display: block;
-  min-height: 550px;
-  background-size: cover;
+    width: 50%;
+    display: block;
+    min-height: 550px;
+    background-size: cover;
 }
-#top .top-in{
-  width: 50%;
-  display: flex;
-  justify-content: center;
+
+#top .top-in {
+   width: 50%;
+   display: flex;
+   justify-content: center;
 }
-#top .top-in-one{
-  width: 80%;
+
+#top .top-in-one {
+    width: 80%;
 }
+
 .scx {
   display: flex;
   flex-direction: row;
