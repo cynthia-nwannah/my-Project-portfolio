@@ -7,42 +7,17 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   width: 100%;
   min-height: 100vh;
   background-color: #f9f9fa;
+  overflow-x: hidden;
 }
-
 
 header {
   width: 100%;
   background-color: #e5e5e5;
-}
-
-section#top {
-  width: 100%;
-  background-color: #e5e5e5;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-#top .top-in {
-  width: 90%;
-}
-
-#top #image {
-  width: 100%;
-  min-height: 150px;
-background-color: red;
-background-image: url('../asset/shape.svg');
-}
-#top .imagetwo{
-  width: 100%;
-  min-height: 150px;
-background-color: red;
-background-image: url('../asset/Thur.png');
 }
 
 .headone {
@@ -55,11 +30,6 @@ background-image: url('../asset/Thur.png');
   height: 80px;
   width: 50%;
   background-size: cover;
-}
-
-.img {
-  height: 100%;
-  width: 100%;
 }
 
 .headright {
@@ -79,10 +49,7 @@ background-image: url('../asset/Thur.png');
 main {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
   padding-top: 23px;
-  background-color: #f9f9fa;
 }
 
 section {
@@ -127,14 +94,6 @@ section p {
     font-size: 0.8em;
     text-align: center;
   }
-}
-
-main h1 {
-  font-size: 3em;
-  padding: 0.5em;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  background-color: white;
 }
 
 #section-three {
@@ -345,13 +304,14 @@ main h1 {
 }
 
 .soft .My {
-  width: 90%;
+  width: 100%;
   position: relative;
 }
 
 .soft .My p {
   font-size: 0.9em;
   font-weight: 400;
+  text-align: justify;
   color: #1a2236;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 2em;
@@ -405,9 +365,15 @@ main h1 {
   right: 76px;
 }
 
+.main-lang {
+  width: 100%;
+  background-color: red;
+}
+
 .Languages {
   height: 100%;
-  width: 90%;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -423,7 +389,7 @@ main h1 {
 }
 
 .lang {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -450,7 +416,7 @@ main h1 {
 
 .Framework {
   height: 100%;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -473,20 +439,13 @@ main h1 {
 
 .skills {
   height: 100%;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 2em;
   background-color: #febf52;
   margin-bottom: 40px;
-}
-
-.shaper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background-color: #f9f9fa;
 }
 
 .last {
@@ -497,6 +456,12 @@ main h1 {
 
 #start {
   width: 90%;
+  background-color: #f9f9fa;
+}
+
+#Start .place {
+  width: 80%;
+  margin: 0 auto;
   background-color: #f9f9fa;
 }
 

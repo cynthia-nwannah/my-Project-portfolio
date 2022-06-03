@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@media screen and (min-width: 800px) {
+  .headleft {
+    display: none;
+  }
+
+  .headone .headleft {
+    display: none;
+  }
+
+  .headright {
+    width: 80%;
+  }
+
+  .headone .headright .right {
+    display: none;
+  }
+
+  .headone {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headone .headright nav {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: #1a2236;
+  }
+
+  .headone .headright nav ul li {
+    display: inline-block;
+    margin-right: 0.5em;
+    padding: 10px;
+  }
+
+  .headone .headright nav ul li a {
+    color: #1a2236;
+    text-decoration: underline;
+  }
+
+  .headone .headright nav ul li a:not(#hello) {
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  section {
+    width: 100%;
+    max-height: 850px;
+    display: flex;
+  }
+
+  section .top-in {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .top-in .top-in-one {
+    width: 80%;
+  }
+
+  section .top-out #image {
+    display: none;
+  }
+
+  .About-bottom img {
+    width: 100%;
+  }
+
+  .div-one img {
+    width: 100%;
+  }
+
+  section .top-out {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  section .top-out .image-down {
+    width: 70%;
+  }
+
+  section .top-out .image-down img {
+    width: 100%;
+  }
+
+  section .top-out .dow {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  section .top-out .dow img {
+    width: 100%;
+  }
+
+  .section-main {
+    display: none;
+  }
+
+  .div-one {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+  }
+
+  .About-top {
+    display: none;
+  }
+
+  #last {
+    position: relative;
+    width: 100%;
+    background: #f9f9fa;
+  }
+
+  #Start {
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+  }
+
+  .place h1 {
+    background: #f9f9fa;
+    font-size: 3em;
+    color: #1a2236;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 0.4em;
+    padding-left: 0;
+  }
+
+  #place p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 1;
+  }
+
+  #last #geome {
+    width: 20%;
+  }
+
+  #last #geome img {
+    width: 100%;
+  }
+
+  #start .place {
+    width: 60%;
+    background-color: #f9f9fa;
+  }
+
+  #last .geot {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  #resume #restin button img {
+    position: absolute;
+    left: 120px;
+    top: 10px;
+  }
+
+  #last .geot #geot {
+    width: 25%;
+  }
+
+  #last .geot #geot img {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color: #1a2236;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #resume {
+    padding: 1em 2em;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .bottom-about {
+    width: 100%;
+  }
+
+  .About-bottom {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #resume .rest {
+    display: none;
+  }
+
+  #resume #restin {
+    width: 80%;
+  }
+
+  #resume #restin button {
+    padding: 1em 6em 1em 1em;
+    font-size: 1em;
+    position: relative;
+    color: #92dcdc;
+    background-color: #1a2236;
+    border: none;
+  }
+
+  #footerimage {
+    width: 50%;
+    padding: 2em 0.8em;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #footerimage .twit {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .headone .headright nav {
+    display: none;
+  }
+
+  section .top-out .image-down {
+    display: none;
+  }
+
+  #section-three {
+    width: 100%;
+  }
+
+  #section-three .plan-top {
+    width: 100%;
+  }
+
+  #section-three .plan-top .lap {
+    width: 100%;
+  }
+
+  #section-three .plan-top .plan {
+    background-color: #1a2236;
+    width: 100%;
+  }
+
+  .div-one {
+    display: none;
+  }
+
+  #section-three .plan-top .plan .plan-bottom {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .bottom-about {
+    display: none;
+  }
+
+  .dow {
+    display: none;
+  }
+
+  .About-top {
+    width: 90%;
+    background-color: white;
+  }
+
+  .geot {
+    display: none;
+  }
+
+  #geome {
+    display: none;
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color: #1a2236;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #resume {
+    padding: 2em 0.8em;
+    width: 100%;
+    color: white;
+  }
+
+  #footerimage {
+    width: 100%;
+    padding: 2em 0.8em;
+  }
+
+  #resume #restin {
+    display: none;
+  }
+}
