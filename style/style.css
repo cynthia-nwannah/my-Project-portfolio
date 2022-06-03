@@ -29,6 +29,14 @@ section .top-in {
   justify-content: center;
 }
 
+.dow {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+}
+
 section.top-in-one {
   width: 80%;
 }
@@ -36,6 +44,9 @@ section.top-in-one {
 .top-out {
   background-color: white;
   width: 100%;
+  display: flex;
+  position: relative;
+  /* flex-direction: column; */
 }
 
 .top-out img {
@@ -45,7 +56,7 @@ section.top-in-one {
 
 .headone {
   width: 100%;
-  height: 20%;
+  height: 35%;
   display: flex;
 }
 
