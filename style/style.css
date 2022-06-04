@@ -74,18 +74,18 @@ section h1 {
     background-color: black;
   }
 
-  25% { 
+  25% {
     color: purple;
     background-color: rgb(15, 195, 226);
- }
+  }
 
   /* 50% {
-     color: rgb(15, 195, 226); 
+     color: rgb(15, 195, 226);
      background-color: rgb(222, 8, 8);
  }
 
-  100% 
-  { color: rgb(237, 241, 11);
+  100% {
+     color: rgb(237, 241, 11);
      background-color: rgb(123, 7, 84);
  } */
 }
