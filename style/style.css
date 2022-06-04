@@ -59,11 +59,35 @@ section {
   margin: 0 auto;
 }
 
-section h2 {
+section h1 {
   font-family: 'Playfair Display', serif;
   padding-bottom: 0.4em;
   font-size: 3.5em;
   font-weight: 300;
+  animation-name: anime;
+  animation-duration: 10s;
+}
+
+@keyframes anime {
+  0% {
+    color: red;
+    background-color: black;
+  }
+
+  25% { 
+    color: purple;
+    background-color: rgb(15, 195, 226);
+ }
+
+  /* 50% {
+     color: rgb(15, 195, 226); 
+     background-color: rgb(222, 8, 8);
+ }
+
+  100% 
+  { color: rgb(237, 241, 11);
+     background-color: rgb(123, 7, 84);
+ } */
 }
 
 section p {
