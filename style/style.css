@@ -71,23 +71,19 @@ section h1 {
 @keyframes anime {
   0% {
     color: red;
-    background-color: black;
   }
 
   25% {
     color: purple;
-    background-color: rgb(15, 195, 226);
   }
 
-  /* 50% {
-     color: rgb(15, 195, 226);
-     background-color: rgb(222, 8, 8);
- }
+  50% {
+    color: rgb(15, 195, 226);
+  }
 
   100% {
-     color: rgb(237, 241, 11);
-     background-color: rgb(123, 7, 84);
- } */
+    color: rgb(223, 104, 124);
+  }
 }
 
 section p {
