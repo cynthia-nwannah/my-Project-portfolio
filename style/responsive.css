@@ -42,6 +42,12 @@
     right: 0;
   }
 
+  .project-left .image-up {
+    position: absolute;
+    top: 0;
+    left: 10%;
+  }
+
   .project .project-right {
     width: 70%;
   }
