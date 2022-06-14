@@ -18,5 +18,3 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   menu.classList.remove('active');
   back.classList.remove('active');
 }));
-
-/*  eslint linebreak-style: ["error", "windows"]    */
