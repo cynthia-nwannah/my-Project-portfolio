@@ -17,8 +17,7 @@ body {
 
 header {
   width: 100%;
-  /* background-color: #e5e5e5; */
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .headleft {
@@ -41,7 +40,6 @@ header {
 
 .nav-menu {
   display: flex;
-  /* margin-right: 2em; */
   justify-content: space-between;
   align-items: center;
   gap: 80px;
@@ -52,8 +50,8 @@ header {
   transition: 0.7s ease;
 }
 
-.nav-link:hover{
-  color:dodgerblue;
+.nav-link:hover {
+  color: dodgerblue;
 }
 
 .nav-menu > li {
@@ -66,7 +64,6 @@ header {
 }
 
 .hamburger {
-
   display: none;
   cursor: pointer;
 }
