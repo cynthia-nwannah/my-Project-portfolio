@@ -17,33 +17,66 @@ body {
 
 header {
   width: 100%;
-  background-color: #e5e5e5;
-}
-
-.headone {
-  width: 100%;
-  height: 20%;
-  display: flex;
+  background-color: #fff;
 }
 
 .headleft {
-  height: 80px;
-  width: 50%;
+  /* background-color: red; */
+  height: 120px;
+  width: 80%;
   background-size: cover;
 }
 
-.headright {
-  width: 50%;
+.navbar {
+  min-height: 70px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.right {
-  width: 30%;
-  align-items: center;
+.nav-img {
+  display: none;
+}
+
+.nav-menu {
   display: flex;
-  justify-content: flex-end;
-  background-color: #e5e5e5;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 0 25px;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.nav-menu > li {
+  list-style: none;
+}
+
+.nav-menu > li > a {
+  color: #1a2236;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 1.8em;
+  height: 5px;
+  margin: 7px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+  margin-right: 5px;
 }
 
 main {
@@ -54,7 +87,7 @@ main {
 
 section {
   background-color: #e5e5e5;
-  width: 75%;
+  width: 100%;
   height: 60%;
   margin: 0 auto;
 }
@@ -87,6 +120,8 @@ section h2 {
 }
 
 section p {
+  width: 90%;
+  margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   font-size: 0.9em;
 }
@@ -498,7 +533,7 @@ section p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.3;
-  font-size: 0.9;
+  font-size: 0.9em;
   color: #1a2236;
 }
 
