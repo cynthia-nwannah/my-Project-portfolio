@@ -285,14 +285,16 @@
         <form action="https://formspree.io/f/xlezzvld" method="post">
             <input type="text" name="name" id="name" placeholder="your name" maxlength="30" required>
             <div class="check">
-            <input type="email" name="email" id="email" placeholder="your email" required>
+            <input onkeyup ="check()" type="email" name="email" id="email" placeholder="your email" required>
             <div class="icons6">
-                <i class="fa-solid fa-exclamation"></i>
-                <i class="fa-solid fa-check"></i>
+                <i class="icon1 fa-solid fa-exclamation"></i>
+                <i class="icon2 fa-solid fa-check"></i>
             </div>
+       
         </div>
+        <div class="error-message">Please Enter Valid Email Address</div>
             <textarea name="text" id="message" cols="20" rows="8" placeholder="Enter your message here..." maxlength="500" required></textarea>
-            <div class="error-message">Please Enter Valid Email Address</div>
+           
             <div class="bot">
                 <button type="submit" id="bomm" class="contact-btn">Start Collaboration</button>
             </div>
