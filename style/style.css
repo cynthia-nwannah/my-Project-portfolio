@@ -582,6 +582,21 @@ form {
   width: 100%;
   display: flex;
   flex-direction: column;
+  /* background-color: red; */
+}
+
+.check {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.check #email {
+  width: 100%;
+}
+
+.icons6{
+  display: flex;
 }
 
 form input {
