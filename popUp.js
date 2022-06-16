@@ -145,4 +145,3 @@ seeProjectBtn5.addEventListener('click', () => {
 seeProjectBtn6.addEventListener('click', () => {
   openPopup(3);
 });
-
