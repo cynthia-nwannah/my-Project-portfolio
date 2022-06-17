@@ -20,6 +20,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   back.classList.remove('active');
 }));
 
+
 const formbutton = document.getElementById('bot');
 const Email = document.getElementById('email');
 const Errormessage = document.getElementById('error-message');
