@@ -41,3 +41,17 @@ formbutton.addEventListener('click', validationForm);
 // Email.addEventListener('change', () =>{
 //   localStorage.setItem('username', Email.value);
 // });
+form.addEventListener('submit', () => {
+  const formdata = {
+    name: name.value,
+    email: Email.value,
+    message: message.value,
+  };
+  localStorage.setItem('forminfo', JSON.stringify(formdata));
+});
+window.addEventListener('load', () => {
+  const formdata = JSON.parse(localStorage.getItem('forminfo'));
+  name.value = formdata.name;
+  Email.value = formdata.email;
+  message.value = formdata.message;
+});
