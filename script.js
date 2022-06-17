@@ -38,9 +38,6 @@ function validationForm(e) {
 }
 formbutton.addEventListener('click', validationForm);
 
-// Email.addEventListener('change', () =>{
-//   localStorage.setItem('username', Email.value);
-// });
 form.addEventListener('submit', () => {
   const formdata = {
     name: name.value,
