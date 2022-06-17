@@ -38,7 +38,7 @@ function validationForm(e) {
 }
 formbutton.addEventListener('click', validationForm);
 
-form.addEventListener('submit', () => {
+form.addEventListener('keyup', () => {
   const formdata = {
     name: name.value,
     email: Email.value,
