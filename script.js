@@ -21,13 +21,13 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 }));
 
 const formbutton = document.getElementById('bot');
+
 const name = document.querySelector('#name');
 const message = document.querySelector('#message');
 const form = document.querySelector('#form-action');
 const Email = document.getElementById('email');
 const Errormessage = document.getElementById('error-message');
-Errormessage.textContent = 'Message not sent! Please write using only the small letters. Thank you.';
-
+Errormessage.textContent = 'Email not sent! Please write using only the small letters. Thank you.';
 function validationForm(e) {
   if (Email.value !== Email.value.toLowerCase()) {
     Errormessage.style.display = 'block';
@@ -52,3 +52,4 @@ window.addEventListener('load', () => {
   Email.value = formdata.email;
   message.value = formdata.message;
 });
+
