@@ -21,6 +21,10 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 }));
 
 const formbutton = document.getElementById('bot');
+
+const name = document.querySelector('#name');
+const message = document.querySelector('#message');
+const form = document.querySelector('#form-action');
 const Email = document.getElementById('email');
 const Errormessage = document.getElementById('error-message');
 Errormessage.textContent = 'Email not sent! Please write using only the small letters. Thank you.';
@@ -33,3 +37,19 @@ function validationForm(e) {
   }
 }
 formbutton.addEventListener('click', validationForm);
+
+form.addEventListener('keyup', () => {
+  const formdata = {
+    name: name.value,
+    email: Email.value,
+    message: message.value,
+  };
+  localStorage.setItem('forminfo', JSON.stringify(formdata));
+});
+window.addEventListener('load', () => {
+  const formdata = JSON.parse(localStorage.getItem('forminfo'));
+  name.value = formdata.name;
+  Email.value = formdata.email;
+  message.value = formdata.message;
+});
+
