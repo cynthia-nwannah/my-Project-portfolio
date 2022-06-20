@@ -273,6 +273,7 @@
     height: 60vh;
     width: 100%;
     text-align: center;
+    text-transform: capitalize;
     transition: 0.3s;
   }
 
@@ -291,7 +292,6 @@
 
   .headleft .nav-img.active {
     display: block;
-    width: 50%;
     height: 90%;
   }
 

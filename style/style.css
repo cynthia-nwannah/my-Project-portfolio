@@ -21,8 +21,7 @@ header {
 }
 
 .headleft {
-  /* background-color: red; */
-  height: 120px;
+  height: 7em;
   width: 80%;
   background-size: cover;
 }
