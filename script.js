@@ -52,4 +52,3 @@ window.addEventListener('load', () => {
   Email.value = formdata.email;
   message.value = formdata.message;
 });
-
