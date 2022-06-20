@@ -285,11 +285,13 @@
     <div class="bot">
         <form action="https://formspree.io/f/xlezzvld" method="post">
             <input type="text" name="name" id="name" placeholder="your name" maxlength="30" required>
-            <input type="email" name="email" id="email" placeholder="your email" required >
-            <textarea name="text" id="text" cols="20" rows="8" placeholder="Enter your message here..." maxlength="500" required></textarea>
-            <div class="bot">
-                <button type="submit" id="bomm">Start Collaboration</button>
+            <input type="email" name="email" id="email" placeholder="your email" required>
+            <textarea name="text" id="message" cols="20" rows="8" placeholder="Enter your message here..." maxlength="500" required></textarea>
+            <div id="error-message"></div>
+            <div id="bot">
+                <button type="submit" id="bomm" class="contact-btn">Start Collaboration</button>
             </div>
+       
         </form>
 </div>
 </div>
@@ -322,7 +324,9 @@
     </footer>
     </div>
     <script src="script.js"></script>
-<script src="popUp.js"></script>
+
+<script defer src="popUp.js"></script>
+
  
    
 </body>

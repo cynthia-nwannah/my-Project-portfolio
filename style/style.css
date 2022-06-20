@@ -606,11 +606,22 @@ input::placeholder {
 
 textarea {
   border: 1px solid #dfdfe0;
+  margin-bottom: 38px;
 }
 
 textarea::placeholder {
   padding: 10px;
   font-size: 1.1em;
+}
+
+#error-message {
+  display: none;
+  background-color: #dfe1e6;
+  color: rgb(240, 34, 34);
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
 }
 
 footer {
